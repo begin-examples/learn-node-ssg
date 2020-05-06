@@ -5,11 +5,15 @@
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --serve",
-    "start": "npm run watch & ARC_STATIC_SPA=false sandbox"
+    "start": "run-p watch sandbox",
+    "sandbox": "ARC_STATIC_SPA=false npx sandbox"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@architect/sandbox": "^1.5.8"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
