@@ -9,7 +9,7 @@
     "sandbox": "ARC_STATIC_SPA=false npx sandbox"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@architect/sandbox": "^2.0.0"
   },
