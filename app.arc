@@ -1,5 +1,5 @@
 @app
-my-spa
+node-ssg
 
 @static
 folder _site
